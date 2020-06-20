@@ -1,0 +1,734 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>depletr package &mdash; depletr  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="depletr.nuclides package" href="depletr.nuclides.html" />
+    <link rel="prev" title="depletr" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> depletr
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">depletr</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">depletr package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="depletr.nuclides.html">depletr.nuclides package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-depletr.dataset">depletr.dataset module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-depletr.depleter">depletr.depleter module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-depletr.fuel">depletr.fuel module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-depletr.plotter">depletr.plotter module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-depletr.printer">depletr.printer module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-depletr">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">depletr</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">depletr</a> &raquo;</li>
+        
+      <li>depletr package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/depletr.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="depletr-package">
+<h1>depletr package<a class="headerlink" href="#depletr-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="depletr.nuclides.html">depletr.nuclides package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="depletr.nuclides.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="depletr.nuclides.html#module-depletr.nuclides.constants">depletr.nuclides.constants module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="depletr.nuclides.html#module-depletr.nuclides.elements">depletr.nuclides.elements module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="depletr.nuclides.html#module-depletr.nuclides.half_lives">depletr.nuclides.half_lives module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="depletr.nuclides.html#module-depletr.nuclides.nuclib">depletr.nuclides.nuclib module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="depletr.nuclides.html#module-depletr.nuclides.nuclide">depletr.nuclides.nuclide module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="depletr.nuclides.html#module-depletr.nuclides.spectra">depletr.nuclides.spectra module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="depletr.nuclides.html#module-depletr.nuclides">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-depletr.dataset">
+<span id="depletr-dataset-module"></span><h2>depletr.dataset module<a class="headerlink" href="#module-depletr.dataset" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="depletr.dataset.DataSet">
+<em class="property">class </em><code class="sig-prename descclassname">depletr.dataset.</code><code class="sig-name descname">DataSet</code><a class="headerlink" href="#depletr.dataset.DataSet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Depletion data collection</p>
+<p>Populate the DataSet using the method <cite>DataSet.add_nuclide()</cite> or
+<cite>DataSet.add_nuclides()</cite>. Once all nuclides are in, perform the
+necessary nuclide linking using <cite>DataSet.build()</cite>.</p>
+<p>These attributes are only available after the DataSet has been built.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><a class="reference internal" href="#depletr.dataset.DataSet.size" title="depletr.dataset.DataSet.size"><strong>size</strong></a> (<em>int</em>) – Size of any axis of the DataSet’s ‘M’ and ‘L’ arrays.
+This is equal to the number of nuclides in the system plus two
+(one for lumped actinides and one for lumped fission products).</p></li>
+<li><p><a class="reference internal" href="#depletr.dataset.DataSet.m" title="depletr.dataset.DataSet.m"><strong>m</strong></a> (<code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>) – ‘M’ matrix of microscopic cross sections.
+Shape=(size, size); dtype=float; units=s^-1.</p></li>
+<li><p><a class="reference internal" href="#depletr.dataset.DataSet.l" title="depletr.dataset.DataSet.l"><strong>l</strong></a> (<code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>) – ‘L’ matrix of decay constants (lambdas).
+Shape=(size, size); dtype=float; units=s^-1.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="depletr.dataset.DataSet.add_nuclide">
+<code class="sig-name descname">add_nuclide</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nuc</span></em>, <em class="sig-param"><span class="n">q</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.dataset.DataSet.add_nuclide" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a nuclide to the set</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>nuc</strong> (<a class="reference internal" href="depletr.nuclides.html#depletr.nuclides.nuclide.Nuclide" title="depletr.nuclides.nuclide.Nuclide"><em>Nuclide</em></a>) – Nuclide to add to the system. If it is already present,
+an error will be raised.</p></li>
+<li><p><strong>q</strong> (<em>float</em><em>, </em><em>optional</em>) – Quantity of the nuclide to add. Arbitrary units.
+Specify a quantity of 0 to add the nuclide to the depletion chain.
+[Default: 0]</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.dataset.DataSet.add_nuclides">
+<code class="sig-name descname">add_nuclides</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">list_of_nuclides</span></em>, <em class="sig-param"><span class="n">list_of_quantities</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.dataset.DataSet.add_nuclides" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add multiple nuclides to the set</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>list_of_nuclides</strong> (Iterable of <cite>Nuclide</cite>) – Nuclides to add to the system. If any are already present,
+an error will be raised.</p></li>
+<li><p><strong>list_of_quantities</strong> (<em>Iterable of float</em><em>, </em><em>optional</em>) – Quantities of each nuclide in <cite>list_of_nuclides.</cite>
+Specify quantities of zero to add nuclides to the depletion chain.
+[Default: None –&gt; all Nuclides at 0]</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.dataset.DataSet.build">
+<code class="sig-name descname">build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.dataset.DataSet.build" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build the depletion matrices M and L.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.dataset.DataSet.get_fission_vector">
+<code class="sig-name descname">get_fission_vector</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.dataset.DataSet.get_fission_vector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the vector of all nuclides’ fission cross sections</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>np.ndarray of float</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Array of fission cross sections for each nuclide.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.dataset.DataSet.get_initial_quantities">
+<code class="sig-name descname">get_initial_quantities</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.dataset.DataSet.get_initial_quantities" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the vector of quantities at time zero.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>None, or <cite>np.ndarray</cite> of float</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Returns None if the DataSet has not been built.
+Otherwise, returns a 1D array of the initial quantities.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.dataset.DataSet.get_xs_vector">
+<code class="sig-name descname">get_xs_vector</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">rxn</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.dataset.DataSet.get_xs_vector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the vector of all nuclides’ cross sections for a reaction</p>
+<p>If the vector exists, it will be looked up.
+Otherwise, it will be created.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>rxn</strong> (<em>str</em>) – Reaction to find. One of: {“fission” | “nu-fission” | “absorption” | “capture”}</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><cite>np.ndarry</cite> of float</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Array of cross sections of <cite>rxn</cite> for each nuclide.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.dataset.DataSet.l">
+<em class="property">property </em><code class="sig-name descname">l</code><a class="headerlink" href="#depletr.dataset.DataSet.l" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="depletr.dataset.DataSet.m">
+<em class="property">property </em><code class="sig-name descname">m</code><a class="headerlink" href="#depletr.dataset.DataSet.m" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="depletr.dataset.DataSet.size">
+<em class="property">property </em><code class="sig-name descname">size</code><a class="headerlink" href="#depletr.dataset.DataSet.size" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-depletr.depleter">
+<span id="depletr-depleter-module"></span><h2>depletr.depleter module<a class="headerlink" href="#module-depletr.depleter" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="depletr.depleter.Depleter">
+<em class="property">class </em><code class="sig-prename descclassname">depletr.depleter.</code><code class="sig-name descname">Depleter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">power</span></em>, <em class="sig-param"><span class="n">enrichment</span></em>, <em class="sig-param"><span class="n">max_burnup</span></em>, <em class="sig-param"><span class="n">spectrum</span></em>, <em class="sig-param"><span class="n">mass</span><span class="o">=</span><span class="default_value">100000000.0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.depleter.Depleter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Depletion solver for the depletr module</p>
+<dl class="simple">
+<dt>power: float; W/g</dt><dd><p>Core power density</p>
+</dd>
+<dt>enrichment: float; wt%</dt><dd><p>Initial U235 enrichment</p>
+</dd>
+<dt>max_burnup: float; MW-d/kg-HM</dt><dd><p>Burnup limit to deplete to (i.e., EOC).</p>
+</dd>
+<dt>spectrum: str</dt><dd><p>“fast” or “thermal”</p>
+</dd>
+<dt>mass: float; kg</dt><dd><p>Heavy metal mass in the core at BOC</p>
+</dd>
+</dl>
+<p>power
+enrichment
+max_burnup
+mass
+fuel_type: str</p>
+<blockquote>
+<div><p>Hardcoded as “Uranium”. Hope to implement other fresh fuels.</p>
+</div></blockquote>
+<dl class="simple">
+<dt>data: nuclides.Nuclib</dt><dd><p>Libary (either “fast” or “thermal”) with nuclides defined</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="depletr.depleter.Depleter.decay">
+<code class="sig-name descname">decay</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">quantities</span></em>, <em class="sig-param"><span class="n">nsteps</span></em>, <em class="sig-param"><span class="n">times</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.depleter.Depleter.decay" title="Permalink to this definition">¶</a></dt>
+<dd><p>Let nuclides decay for a certain amount of time</p>
+<p>All nuclides will decay with their own half-lives,
+absent of any neutron flux.</p>
+<p>This method lazily uses an equal number of steps (<cite>nsteps</cite>) for every
+interval in <cite>times</cite>. It was sufficient for the 22.251 problem set,
+but should allow options to use an array of <cite>nsteps</cite> per interval,
+a fixed <cite>dt</cite>, or an array of <cite>dt</cite> per interval.</p>
+<dl class="simple">
+<dt>decayed = Depleter.decay(q_spent, 2, [10, 20, 100])</dt><dd><dl class="simple">
+<dt>–&gt; Will deplete [0 -&gt; 10], [10 -&gt; 20], and [20 -&gt; 100]</dt><dd><p>with 2 steps: [5,  10,   15,   20,   60,  and  100]</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>The resulting array <cite>decayed</cite> will represent nuclide concentrations
+at times 0, 10, 20, and 100.</p>
+<dl class="simple">
+<dt>quantities: Iterable of float, len=(ALL_NUCLIDES + 2);</dt><dd><p>Quantities of each Nuclide at the start of the decay period.
+The last two entries are the “dead-end” (lumped) actinide
+and fission product, respectively.</p>
+</dd>
+<dt>nsteps: int</dt><dd><p>Number of time steps in each interval.</p>
+</dd>
+<dt>times: np.ndarray of float, seconds</dt><dd><p>Times to report Nuclide concentrations at.
+<cite>nsteps</cite> time steps will be taken between each time in the array.</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>np.ndarray of float, shape=(ALL_NUCLIDES + 2, len(times))</dt><dd><p>Nuclide concentrations, including lumped actinides and fission products,
+at time 0 and each time requested in <cite>times</cite>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.depleter.Depleter.deplete_fresh">
+<code class="sig-name descname">deplete_fresh</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nsteps</span></em>, <em class="sig-param"><span class="n">plots</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.depleter.Depleter.deplete_fresh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deplete fresh fuel uranium fuel to the burnup limit</p>
+<p>The nuclide list is initialized assuming pure U235/U238 fuel at
+Depleter.enrichment. Each step is depleted at a power of
+Depleter.power, which is used to calculate a constant fission rate
+and flux for each time step.</p>
+<dl>
+<dt>nsteps: int</dt><dd><p>Number of time steps to use</p>
+</dd>
+<dt>plots: {int | bool} (optional)</dt><dd><blockquote>
+<div><blockquote>
+<div><dl class="simple">
+<dt>Plotting mode:</dt><dd><ul class="simple">
+<li><p>0: (or anything Falsey) Do not make any plots</p></li>
+<li><p>1: (or True) Make a single plot with 4 depletion subplots</p></li>
+<li><dl class="simple">
+<dt>2: For Debugging Only. Make matrix spy() plots and</dt><dd><p>initial heavy metal depletion plot.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+<ul class="simple">
+<li><p>&gt;2: Make 4 subplots</p></li>
+</ul>
+</div></blockquote>
+<p>[Default: 1]</p>
+</dd>
+<dt>verbose: bool (optional)</dt><dd><p>Whether to print extra information during depletion.
+[Default: True]</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>np.ndarray, float; nuclides * 1E-24</dt><dd><p>Nuclide concentrations at the end of the depletion (EOC).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.depleter.Depleter.get_all_nuclide_names">
+<code class="sig-name descname">get_all_nuclide_names</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.depleter.Depleter.get_all_nuclide_names" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the list of all nuclide names in the system</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.depleter.Depleter.get_all_nuclides">
+<code class="sig-name descname">get_all_nuclides</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.depleter.Depleter.get_all_nuclides" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the list of all Nuclides in the system</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.depleter.Depleter.reload">
+<code class="sig-name descname">reload</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">quantities</span></em>, <em class="sig-param"><span class="n">nsteps</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.depleter.Depleter.reload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reload the core with known nuclides, then deplete to burnup limit</p>
+<p>When depleting a core that is not pure U235/U238, the nuclide
+abundance vector <cite>quantities</cite> must be provided. The ratio is
+preserved, while the magnitude is scaled to preserve the total
+heavy metal mass of fuel in the core (more or less).</p>
+<p>From then, the depletion calculation proceeds as in
+<cite>Depleter.deplete_fresh()</cite>.</p>
+<dl class="simple">
+<dt>quantities: np.ndarray(dtype=float, len=NUM_NUCLIDES + 2)</dt><dd><p>Vector of nuclides with which to fill the core.
+The last two entries are the “dead-end” (lumped) actinide
+and fission product, respectively.</p>
+</dd>
+<dt>nsteps: int</dt><dd><p>Number of time steps to use</p>
+</dd>
+<dt>verbose: bool (optional)</dt><dd><p>Whether to print extra information during the depletion solution
+[Default: False]</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>np.ndarray(dtype=float, len=NUM_NUCLIDES + 2); nuclei * 1E-24</dt><dd><p>Vector of nuclide concentrations at the end of the depletion (EOC).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.depleter.Depleter.reload_kinf">
+<code class="sig-name descname">reload_kinf</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">quantities</span></em>, <em class="sig-param"><span class="n">nsteps</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.depleter.Depleter.reload_kinf" title="Permalink to this definition">¶</a></dt>
+<dd><p><cite>Depleter.reload()</cite>, but returns k-infinities instead</p>
+<p>This function exists for optimization calculations.</p>
+<dl class="simple">
+<dt>np.ndarray(dtype=float, len=nsteps)</dt><dd><p>Vector of k-infinity at every time step</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.depleter.Depleter.reprocess">
+<code class="sig-name descname">reprocess</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">quantities</span></em>, <em class="sig-param"><span class="n">which_elements</span></em>, <em class="sig-param"><span class="n">mox_frac</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.depleter.Depleter.reprocess" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reprocess spent into MOX</p>
+<p>Given the nuclide quantities in some spent fuel, take the ones we want
+and mix them with natural uranium to form mixed-oxide fuel (MOX).</p>
+<dl class="simple">
+<dt>quantities: np.ndarray(dtype=float, len=NUM_NUCLIDES)</dt><dd><p>Vector of nuclide quantities in the spent fuel,
+excluding lumped fission products and deadend actinides.</p>
+</dd>
+<dt>which_elements: Iterable of str</dt><dd><p>Symbols for the elements to retain after chemical separation.
+For example, which_elements=(“Pu”, “Np”) will retain all nuclides
+of the elements Plutonium and Neptunium.</p>
+</dd>
+<dt>mox_frac: float</dt><dd><p>Atom fraction of the retained elements to mix into the new fuel.</p>
+</dd>
+</dl>
+<p>mox: np.ndarray</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.depleter.Depleter.scale">
+<code class="sig-name descname">scale</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">quantities</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.depleter.Depleter.scale" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given the quantities of nuclides, find the actual concentrations</p>
+<p>One often goes back and forth between relative numbers (<cite>quantities</cite>)
+and absolute numbers (<cite>concentrations</cite>). This method serves to scale
+a vector of nuclide abundance–relative or absolute–to the number of
+nuclei in the reactor, assuming an average atomic mass of 238.</p>
+<p>Concentrations are scaled by 1E-24 (the ratio of 1 barn / 1 cm^2)
+for numerical precision reasons and easy micro/macro xs conversion.</p>
+<dl class="simple">
+<dt>quantities: np.ndarray of float; arbitrary units</dt><dd><p>Vector of quantities of nuclides to scale to the reactor mass.
+Will be normalized: their units or absolute values do not matter.</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>np.ndarray of float; atoms * 1E-24</dt><dd><p>Vector of total number of nuclei</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.depleter.Depleter.show">
+<code class="sig-name descname">show</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.depleter.Depleter.show" title="Permalink to this definition">¶</a></dt>
+<dd><p>Shortcut for matplotlib.pyplot.show()</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-depletr.fuel">
+<span id="depletr-fuel-module"></span><h2>depletr.fuel module<a class="headerlink" href="#module-depletr.fuel" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="depletr.fuel.at_to_wt_arbitrary">
+<code class="sig-prename descclassname">depletr.fuel.</code><code class="sig-name descname">at_to_wt_arbitrary</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">list_of_nuclides</span></em>, <em class="sig-param"><span class="n">list_of_ats</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.fuel.at_to_wt_arbitrary" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert multiple atom fractions to an array of weight fractions</p>
+<dl class="simple">
+<dt>list_of_nuclides: Iterable of Nuclide</dt><dd><p>Nuclides for which to convert atom fraction to weight fraction</p>
+</dd>
+<dt>list_of_ats: Iterable of float</dt><dd><p>Atom fractions of each nuclide</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>np.ndarray(dtype=float)</dt><dd><p>Array of weight fractions of each nuclide</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="depletr.fuel.at_to_wt_uranium">
+<code class="sig-prename descclassname">depletr.fuel.</code><code class="sig-name descname">at_to_wt_uranium</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">at235</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.fuel.at_to_wt_uranium" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert atom fraction to weight fraction for uranium fuel</p>
+<dl class="simple">
+<dt>at235: float</dt><dd><p>Atom fraction U235</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>float</dt><dd><p>Weight fraction U235</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="depletr.fuel.get_fission_rate">
+<code class="sig-prename descclassname">depletr.fuel.</code><code class="sig-name descname">get_fission_rate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">megawatts</span></em>, <em class="sig-param"><span class="n">mev_per_fission</span><span class="o">=</span><span class="default_value">200</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.fuel.get_fission_rate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the number of required fissions</p>
+<dl class="simple">
+<dt>megawatts: float; MW</dt><dd><p>Total reactor thermal power</p>
+</dd>
+<dt>mev_per_fission: float; MeV/fission</dt><dd><p>Average energy released per fission.
+TODO: Put this in the Nuclide class and data libraries.
+[Default: 200]</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>float; MeV/s</dt><dd><p>Fission rate required to achieve the desired power</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="depletr.fuel.give_me_fire">
+<code class="sig-prename descclassname">depletr.fuel.</code><code class="sig-name descname">give_me_fire</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">watts_per_gram</span></em>, <em class="sig-param"><span class="n">burnup</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.fuel.give_me_fire" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the time to achieve a required burnup</p>
+<dl class="simple">
+<dt>watts_per_gram: float; W/g</dt><dd><p>Power density of the reactor</p>
+</dd>
+<dt>burnup: float; MW-d/kg-HM</dt><dd><p>Desired fuel burnup at EOC</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>float; seconds</dt><dd><p>Time to reach <cite>burnup</cite> with a power density of <cite>watts_per_gram</cite></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="depletr.fuel.give_me_fuel">
+<code class="sig-prename descclassname">depletr.fuel.</code><code class="sig-name descname">give_me_fuel</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">element</span></em>, <em class="sig-param"><span class="n">enrichment</span></em>, <em class="sig-param"><span class="n">num_nuclides</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.fuel.give_me_fuel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a nuclide vector for fresh fuel</p>
+<dl class="simple">
+<dt>element: str</dt><dd><p>Element name or atomic symbol.
+Only Uranium is currently supported.</p>
+</dd>
+<dt>enrichment: float; wt%</dt><dd><p>U235 enrichment</p>
+</dd>
+<dt>num_nuclides: int</dt><dd><p>Total number of nuclides to accommodate in the vector</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>np.ndarray(dtype=float, len=num_nuclides)</dt><dd><p>Array with nuclides populated for fresh fuel and 0 for everything else</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="depletr.fuel.give_me_that_which_i_desire">
+<code class="sig-prename descclassname">depletr.fuel.</code><code class="sig-name descname">give_me_that_which_i_desire</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.fuel.give_me_that_which_i_desire" title="Permalink to this definition">¶</a></dt>
+<dd><p>Ooh</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="depletr.fuel.wt_to_at_plutonium">
+<code class="sig-prename descclassname">depletr.fuel.</code><code class="sig-name descname">wt_to_at_plutonium</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">wt239</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.fuel.wt_to_at_plutonium" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="depletr.fuel.wt_to_at_uranium">
+<code class="sig-prename descclassname">depletr.fuel.</code><code class="sig-name descname">wt_to_at_uranium</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">wt235</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.fuel.wt_to_at_uranium" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert weight fraction to atom fraction for uranium fuel</p>
+<dl class="simple">
+<dt>wt235: float</dt><dd><p>Weight fraction U235</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>float</dt><dd><p>Atom fraction U235</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-depletr.plotter">
+<span id="depletr-plotter-module"></span><h2>depletr.plotter module<a class="headerlink" href="#module-depletr.plotter" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="depletr.plotter.make_actinides_plot">
+<code class="sig-prename descclassname">depletr.plotter.</code><code class="sig-name descname">make_actinides_plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tvals</span></em>, <em class="sig-param"><span class="n">num</span></em>, <em class="sig-param"><span class="n">all_nuclides</span></em>, <em class="sig-param"><span class="n">ax</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">unit</span><span class="o">=</span><span class="default_value">'day'</span></em>, <em class="sig-param"><span class="n">plot_type</span><span class="o">=</span><span class="default_value">'semilogy'</span></em>, <em class="sig-param"><span class="n">deadend_actinides</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">fission_products</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.plotter.make_actinides_plot" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="depletr.plotter.make_element_depletion_plot">
+<code class="sig-prename descclassname">depletr.plotter.</code><code class="sig-name descname">make_element_depletion_plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tvals</span></em>, <em class="sig-param"><span class="n">list_of_arrays</span></em>, <em class="sig-param"><span class="n">list_of_nuclides</span></em>, <em class="sig-param"><span class="n">ax</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">unit</span><span class="o">=</span><span class="default_value">'day'</span></em>, <em class="sig-param"><span class="n">relative</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">element</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.plotter.make_element_depletion_plot" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="depletr.plotter.make_enrichment_flux_plot">
+<code class="sig-prename descclassname">depletr.plotter.</code><code class="sig-name descname">make_enrichment_flux_plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tvals</span></em>, <em class="sig-param"><span class="n">enrichvals</span></em>, <em class="sig-param"><span class="n">fluxvals</span></em>, <em class="sig-param"><span class="n">ax</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">unit</span><span class="o">=</span><span class="default_value">'day'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.plotter.make_enrichment_flux_plot" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="depletr.plotter.make_heavy_metal_plot">
+<code class="sig-prename descclassname">depletr.plotter.</code><code class="sig-name descname">make_heavy_metal_plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tvals</span></em>, <em class="sig-param"><span class="n">num</span></em>, <em class="sig-param"><span class="n">all_nuclides</span></em>, <em class="sig-param"><span class="n">ax</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">unit</span><span class="o">=</span><span class="default_value">'day'</span></em>, <em class="sig-param"><span class="n">plot_type</span><span class="o">=</span><span class="default_value">'semilogy'</span></em>, <em class="sig-param"><span class="n">deadend_actinides</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">fission_products</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.plotter.make_heavy_metal_plot" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="depletr.plotter.make_kinf_plot">
+<code class="sig-prename descclassname">depletr.plotter.</code><code class="sig-name descname">make_kinf_plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tvals</span></em>, <em class="sig-param"><span class="n">kvals</span></em>, <em class="sig-param"><span class="n">ax</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">unit</span><span class="o">=</span><span class="default_value">'day'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.plotter.make_kinf_plot" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-depletr.printer">
+<span id="depletr-printer-module"></span><h2>depletr.printer module<a class="headerlink" href="#module-depletr.printer" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="depletr.printer.print_decay_results">
+<code class="sig-prename descclassname">depletr.printer.</code><code class="sig-name descname">print_decay_results</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">names</span></em>, <em class="sig-param"><span class="n">times</span></em>, <em class="sig-param"><span class="n">concentrations</span></em>, <em class="sig-param"><span class="n">other_actinides</span><span class="o">=</span><span class="default_value">'other'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.printer.print_decay_results" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-depletr">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-depletr" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="depletr.nuclides.html" class="btn btn-neutral float-right" title="depletr.nuclides package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="modules.html" class="btn btn-neutral float-left" title="depletr" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, tjlaboss
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

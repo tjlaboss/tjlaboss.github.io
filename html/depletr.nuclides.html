@@ -1,0 +1,505 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>depletr.nuclides package &mdash; depletr  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="depletr package" href="depletr.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> depletr
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">depletr</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="depletr.html">depletr package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="depletr.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">depletr.nuclides package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="depletr.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="depletr.html#module-depletr.dataset">depletr.dataset module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="depletr.html#module-depletr.depleter">depletr.depleter module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="depletr.html#module-depletr.fuel">depletr.fuel module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="depletr.html#module-depletr.plotter">depletr.plotter module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="depletr.html#module-depletr.printer">depletr.printer module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="depletr.html#module-depletr">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">depletr</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">depletr</a> &raquo;</li>
+        
+          <li><a href="depletr.html">depletr package</a> &raquo;</li>
+        
+      <li>depletr.nuclides package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/depletr.nuclides.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="depletr-nuclides-package">
+<h1>depletr.nuclides package<a class="headerlink" href="#depletr-nuclides-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-depletr.nuclides.constants">
+<span id="depletr-nuclides-constants-module"></span><h2>depletr.nuclides.constants module<a class="headerlink" href="#module-depletr.nuclides.constants" title="Permalink to this headline">¶</a></h2>
+<p>Constants</p>
+<p>A few constants used by multiple files</p>
+<dl class="py data">
+<dt id="depletr.nuclides.constants.DEADEND_ACTINIDE">
+<code class="sig-prename descclassname">depletr.nuclides.constants.</code><code class="sig-name descname">DEADEND_ACTINIDE</code><em class="property"> = 'other actinides'</em><a class="headerlink" href="#depletr.nuclides.constants.DEADEND_ACTINIDE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Name for deadend actinides not tracked</p>
+</dd></dl>
+
+<dl class="py data">
+<dt id="depletr.nuclides.constants.FISSION_PRODUCT">
+<code class="sig-prename descclassname">depletr.nuclides.constants.</code><code class="sig-name descname">FISSION_PRODUCT</code><em class="property"> = 'fission products'</em><a class="headerlink" href="#depletr.nuclides.constants.FISSION_PRODUCT" title="Permalink to this definition">¶</a></dt>
+<dd><p>Name for lumped fission products</p>
+</dd></dl>
+
+<dl class="py data">
+<dt id="depletr.nuclides.constants.NATURAL_U235">
+<code class="sig-prename descclassname">depletr.nuclides.constants.</code><code class="sig-name descname">NATURAL_U235</code><em class="property"> = 0.0071</em><a class="headerlink" href="#depletr.nuclides.constants.NATURAL_U235" title="Permalink to this definition">¶</a></dt>
+<dd><p>Natural enrichment of U235</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-depletr.nuclides.elements">
+<span id="depletr-nuclides-elements-module"></span><h2>depletr.nuclides.elements module<a class="headerlink" href="#module-depletr.nuclides.elements" title="Permalink to this headline">¶</a></h2>
+<p>Elements</p>
+<p>Convert between atomic number Z and element symbol</p>
+<dl class="py data">
+<dt id="depletr.nuclides.elements.SYMBOL">
+<code class="sig-prename descclassname">depletr.nuclides.elements.</code><code class="sig-name descname">SYMBOL</code><em class="property"> = ['n', 'H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca', 'Sc', 'Ti', 'V', 'Cr', 'Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn', 'Ga', 'Ge', 'As', 'Se', 'Br', 'Kr', 'Rb', 'Sr', 'Y', 'Zr', 'Nb', 'Mo', 'Tc', 'Ru', 'Rh', 'Pd', 'Ag', 'Cd', 'In', 'Sn', 'Sb', 'Te', 'I', 'Xe', 'Cs', 'Ba', 'La', 'Ce', 'Pr', 'Nd', 'Pm', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb', 'Lu', 'Hf', 'Ta', 'W', 'Re', 'Os', 'Ir', 'Pt', 'Au', 'Hg', 'Tl', 'Pb', 'Bi', 'Po', 'At', 'Rn', 'Fr', 'Ra', 'Ac', 'Th', 'Pa', 'U', 'Np', 'Pu', 'Am', 'Cm', 'Bk', 'Cf', 'Es', 'Fm', 'Md', 'No', 'Lr', 'Rf', 'Db', 'Sg', 'Bh', 'Hs', 'Mt', 'Ds', 'Rg', 'Cn', 'Nh', 'Fl', 'Mc', 'Lv', 'Ts', 'Og']</em><a class="headerlink" href="#depletr.nuclides.elements.SYMBOL" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of elements indexed by Z.</p>
+</dd></dl>
+
+<dl class="py data">
+<dt id="depletr.nuclides.elements.Z">
+<code class="sig-prename descclassname">depletr.nuclides.elements.</code><code class="sig-name descname">Z</code><em class="property"> = {'Ac': 89, 'Ag': 47, 'Al': 13, 'Am': 95, 'Ar': 18, 'As': 33, 'At': 85, 'Au': 79, 'B': 5, 'Ba': 56, 'Be': 4, 'Bh': 107, 'Bi': 83, 'Bk': 97, 'Br': 35, 'C': 6, 'Ca': 20, 'Cd': 48, 'Ce': 58, 'Cf': 98, 'Cl': 17, 'Cm': 96, 'Cn': 112, 'Co': 27, 'Cr': 24, 'Cs': 55, 'Cu': 29, 'Db': 105, 'Ds': 110, 'Dy': 66, 'Er': 68, 'Es': 99, 'Eu': 63, 'F': 9, 'Fe': 26, 'Fl': 114, 'Fm': 100, 'Fr': 87, 'Ga': 31, 'Gd': 64, 'Ge': 32, 'H': 1, 'He': 2, 'Hf': 72, 'Hg': 80, 'Ho': 67, 'Hs': 108, 'I': 53, 'In': 49, 'Ir': 77, 'K': 19, 'Kr': 36, 'La': 57, 'Li': 3, 'Lr': 103, 'Lu': 71, 'Lv': 116, 'Mc': 115, 'Md': 101, 'Mg': 12, 'Mn': 25, 'Mo': 42, 'Mt': 109, 'N': 7, 'Na': 11, 'Nb': 41, 'Nd': 60, 'Ne': 10, 'Nh': 113, 'Ni': 28, 'No': 102, 'Np': 93, 'O': 8, 'Og': 118, 'Os': 76, 'P': 15, 'Pa': 91, 'Pb': 82, 'Pd': 46, 'Pm': 61, 'Po': 84, 'Pr': 59, 'Pt': 78, 'Pu': 94, 'Ra': 88, 'Rb': 37, 'Re': 75, 'Rf': 104, 'Rg': 111, 'Rh': 45, 'Rn': 86, 'Ru': 44, 'S': 16, 'Sb': 51, 'Sc': 21, 'Se': 34, 'Sg': 106, 'Si': 14, 'Sm': 62, 'Sn': 50, 'Sr': 38, 'Ta': 73, 'Tb': 65, 'Tc': 43, 'Te': 52, 'Th': 90, 'Ti': 22, 'Tl': 81, 'Tm': 69, 'Ts': 117, 'U': 92, 'V': 23, 'W': 74, 'Xe': 54, 'Y': 39, 'Yb': 70, 'Zn': 30, 'Zr': 40, 'n': 0}</em><a class="headerlink" href="#depletr.nuclides.elements.Z" title="Permalink to this definition">¶</a></dt>
+<dd><p>OrderedDict of <code class="code docutils literal notranslate"><span class="pre">{&quot;Atomic</span> <span class="pre">symbol&quot;</span> <span class="pre">:</span> <span class="pre">Z}</span></code></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-depletr.nuclides.half_lives">
+<span id="depletr-nuclides-half-lives-module"></span><h2>depletr.nuclides.half_lives module<a class="headerlink" href="#module-depletr.nuclides.half_lives" title="Permalink to this headline">¶</a></h2>
+<p>Half-Lives</p>
+<p>Source: NNDC.BNL.gov/nudat2</p>
+<dl class="py data">
+<dt id="depletr.nuclides.half_lives.ALPHA">
+<code class="sig-prename descclassname">depletr.nuclides.half_lives.</code><code class="sig-name descname">ALPHA</code><em class="property"> = {'Am241': 13651817760.0, 'Am242m': 967309043478.2609, 'Am243': 232390166400.0, 'Cm242': 14071104.000000002, 'Cm243': 912014640.0, 'Cm244': 571508136.0, 'Cm245': 266756392800.0, 'Np237': 67659494400000.0, 'Pu238': 2767601520.0, 'Pu239': 760853736000.0, 'Pu240': 207049413600.0, 'Pu242': 11770984800000.0, 'U235': 2.221023888e+16, 'U236': 739078992000000.0}</em><a class="headerlink" href="#depletr.nuclides.half_lives.ALPHA" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alpha decay dictionary <code class="code docutils literal notranslate"><span class="pre">{&quot;nuclide</span> <span class="pre">name&quot;</span> <span class="pre">:</span> <span class="pre">alpha_hlife_seconds}</span></code></p>
+</dd></dl>
+
+<dl class="py data">
+<dt id="depletr.nuclides.half_lives.BETAM">
+<code class="sig-prename descclassname">depletr.nuclides.half_lives.</code><code class="sig-name descname">BETAM</code><em class="property"> = {'Am242': 66137.61467889909, 'Np236': 162000.0, 'Np238': 182908.8, 'Np239': 204336.00000000003, 'Np240': 433.2, 'Pa232': 113184.0, 'Pa233': 2330640.0, 'Pa234': 69.65144230769232, 'Pu241': 450958104.0, 'Th233': 1338.0, 'Th244': 2082240.0000000002, 'U237': 583200.0, 'U239': 1407.0}</em><a class="headerlink" href="#depletr.nuclides.half_lives.BETAM" title="Permalink to this definition">¶</a></dt>
+<dd><p>Beta- dict <code class="code docutils literal notranslate"><span class="pre">{&quot;nuclide</span> <span class="pre">name&quot;</span> <span class="pre">:</span> <span class="pre">betam_hlife_seconds}</span></code></p>
+</dd></dl>
+
+<dl class="py data">
+<dt id="depletr.nuclides.half_lives.GAMMA">
+<code class="sig-prename descclassname">depletr.nuclides.half_lives.</code><code class="sig-name descname">GAMMA</code><em class="property"> = {'Am242m': 4470184448.46293}</em><a class="headerlink" href="#depletr.nuclides.half_lives.GAMMA" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gamma (only for Americium metastable) <code class="code docutils literal notranslate"><span class="pre">{&quot;nuclide</span> <span class="pre">name&quot;</span> <span class="pre">:</span> <span class="pre">gamma_hlife_seconds}</span></code></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-depletr.nuclides.nuclib">
+<span id="depletr-nuclides-nuclib-module"></span><h2>depletr.nuclides.nuclib module<a class="headerlink" href="#module-depletr.nuclides.nuclib" title="Permalink to this headline">¶</a></h2>
+<p>Nuclib</p>
+<p>Module containing <cite>Nuclib</cite> class</p>
+<dl class="py class">
+<dt id="depletr.nuclides.nuclib.Nuclib">
+<em class="property">class </em><code class="sig-prename descclassname">depletr.nuclides.nuclib.</code><code class="sig-name descname">Nuclib</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">nu</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.nuclides.nuclib.Nuclib" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Nuclide library</p>
+<p>Add by doing <code class="code docutils literal notranslate"><span class="pre">Nuclib.nuclides</span> <span class="pre">=</span> <span class="pre">list_of_nuclides</span></code>.
+The <cite>nuclides</cite> dictionary will be built automatically.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) – Brief name of the lib, such as “thermal”</p></li>
+<li><p><strong>nu</strong> (<em>float</em>) – Average number of neutrons per fission</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#depletr.nuclides.nuclib.Nuclib.nuclides" title="depletr.nuclides.nuclib.Nuclib.nuclides"><strong>nuclides</strong></a> (<em>collections.OrderedDict</em>) – Dictionary of <code class="code docutils literal notranslate"><span class="pre">{&quot;nuclide</span> <span class="pre">name&quot;</span> <span class="pre">:</span> <span class="pre">Nuclide}</span></code></p>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="depletr.nuclides.nuclib.Nuclib.nuclides">
+<em class="property">property </em><code class="sig-name descname">nuclides</code><a class="headerlink" href="#depletr.nuclides.nuclib.Nuclib.nuclides" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-depletr.nuclides.nuclide">
+<span id="depletr-nuclides-nuclide-module"></span><h2>depletr.nuclides.nuclide module<a class="headerlink" href="#module-depletr.nuclides.nuclide" title="Permalink to this headline">¶</a></h2>
+<p>Nuclide</p>
+<p>Module containing just the <cite>Nuclide</cite> class.</p>
+<dl class="py class">
+<dt id="depletr.nuclides.nuclide.Nuclide">
+<em class="property">class </em><code class="sig-prename descclassname">depletr.nuclides.nuclide.</code><code class="sig-name descname">Nuclide</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">element</span></em>, <em class="sig-param"><span class="n">a</span></em><span class="sig-paren">)</span><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A nuclide with several useful physical quantities</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>element</strong> (<em>str</em>) – atomic symbol for the element, e.g. “U”</p></li>
+<li><p><strong>a</strong> (<em>int</em>) – mass number of the nucleus,    e.g. 235</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) – element+A, e.g., “U235” for Uranium-235</p></li>
+<li><p><a class="reference internal" href="#depletr.nuclides.nuclide.Nuclide.alpha" title="depletr.nuclides.nuclide.Nuclide.alpha"><strong>alpha</strong></a> (<em>float</em>) – maximum fractional energy loss per collision</p></li>
+<li><p><a class="reference internal" href="#depletr.nuclides.nuclide.Nuclide.xi" title="depletr.nuclides.nuclide.Nuclide.xi"><strong>xi</strong></a> (<em>float</em>) – mean logarithmic energy decrement</p></li>
+<li><p><strong>lambda</strong> (<em>float</em>) – decay constant (s^-1)</p></li>
+<li><p><a class="reference internal" href="#depletr.nuclides.nuclide.Nuclide.halflife" title="depletr.nuclides.nuclide.Nuclide.halflife"><strong>halflife</strong></a> (<em>float</em>) – decay half-life (seconds)</p></li>
+<li><p><strong>sigma_n</strong> (<em>float</em>) – (n, n) micro xs (barns)</p></li>
+<li><p><strong>sigma_y</strong> (<em>float</em>) – (n, y) micro xs (barns)</p></li>
+<li><p><strong>sigma_f</strong> (<em>float</em>) – (n, f) micro xs (barns)</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.alpha">
+<em class="property">property </em><code class="sig-name descname">alpha</code><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.alpha" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.capture">
+<code class="sig-name descname">capture</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.capture" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the daughter nuclides from a neutron capture</p>
+<p>For nuclei where we model excited but metastable states, there exists
+a branch ratio for producing the ground state or the metastable state.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Names and branch ratios of the daughter nuclide at the ground
+and metastable (excited) states, such as:
+((name_g, branch_ratio_g), (name_m, branch_ratio_m))</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>Nested tuples of the structure: ((str, str), (str, str))</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.decay_alpha">
+<code class="sig-name descname">decay_alpha</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.decay_alpha" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the daughter nuclide from an alpha decay</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Name of the daughter nuclide</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>str or Nonetype</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.decay_betam">
+<code class="sig-name descname">decay_betam</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.decay_betam" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the daughter nuclide from a Beta- decay</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Name of the daughter nuclide</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>str or Nonetype</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.decay_betap">
+<code class="sig-name descname">decay_betap</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.decay_betap" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the daughter nuclide from a Beta+ decay</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Name of the daughter nuclide</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>str or Nonetype</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.decay_gamma">
+<code class="sig-name descname">decay_gamma</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.decay_gamma" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the daughter nuclide from internal conversion or gamma decay</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Name of the daughter nuclide</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>str or Nonetype</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.fission">
+<code class="sig-name descname">fission</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.fission" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the fission product, if fissionable.</p>
+<p>This returns a list instead of a single string, in case we want
+to return 2 (or 3) fission products.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>List containing just the lumped fission product</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list of str, or Nonetype</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.get_all_daughters">
+<code class="sig-name descname">get_all_daughters</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.get_all_daughters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Nuclides, lock up your daughters</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>daughter nuclides from all possible decays</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list of str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.halflife">
+<em class="property">property </em><code class="sig-name descname">halflife</code><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.halflife" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.kinf">
+<em class="property">property </em><code class="sig-name descname">kinf</code><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.kinf" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.lambda_total">
+<em class="property">property </em><code class="sig-name descname">lambda_total</code><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.lambda_total" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.nu_sigma_f">
+<em class="property">property </em><code class="sig-name descname">nu_sigma_f</code><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.nu_sigma_f" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.sigma_a">
+<em class="property">property </em><code class="sig-name descname">sigma_a</code><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.sigma_a" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="depletr.nuclides.nuclide.Nuclide.xi">
+<em class="property">property </em><code class="sig-name descname">xi</code><a class="headerlink" href="#depletr.nuclides.nuclide.Nuclide.xi" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-depletr.nuclides.spectra">
+<span id="depletr-nuclides-spectra-module"></span><h2>depletr.nuclides.spectra module<a class="headerlink" href="#module-depletr.nuclides.spectra" title="Permalink to this headline">¶</a></h2>
+<p>Spectra</p>
+<p>Keep track of implemented nuclide libraries of various energy spectra</p>
+<dl class="py data">
+<dt id="depletr.nuclides.spectra.SPECTRA">
+<code class="sig-prename descclassname">depletr.nuclides.spectra.</code><code class="sig-name descname">SPECTRA</code><em class="property"> = {'fast': &lt;function get_fast_nuclib&gt;, 'thermal': &lt;function get_thermal_nuclib&gt;}</em><a class="headerlink" href="#depletr.nuclides.spectra.SPECTRA" title="Permalink to this definition">¶</a></dt>
+<dd><p>dict of <code class="code docutils literal notranslate"><span class="pre">{&quot;nuclib_name&quot;</span> <span class="pre">:</span> <span class="pre">get_nuclib_function}</span></code></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-depletr.nuclides">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-depletr.nuclides" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="depletr.html" class="btn btn-neutral float-left" title="depletr package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, tjlaboss
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
